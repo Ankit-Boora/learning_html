@@ -4,18 +4,18 @@
 					document.getElementById("sample").innerHTML = "SEO Expert and Website Developer.";
 			}
 		function getValue() {
-					alert(document.getElementById("demo").value);
+					alert(document.getElementById('demo').value);
 			}
 				
 		function getValue() {
-					alert(document.getElementById("demo").checked);
+					alert(document.getElementById('demo').checked);
 			}
 		function readFile() {
 					var reader = new FileReader();
-					var file = document.getElementById("demo").files[0];
+					var file = document.getElementById('demo').files[0];
 					
 					reader.onload = function(e) {
-						document.getElementById("result").src = e.target.result;
+						document.getElementById('result').src = e.target.result;
 			}
 					reader.readAsDataURL(file);
 			}
