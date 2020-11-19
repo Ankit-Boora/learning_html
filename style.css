@@ -2,7 +2,12 @@
 body	{
 	background-color:#9A9796;
 		}
-		
+		div { 
+		        background-color: pink;
+		        border-width: 3px;
+		        border-style: solid;
+		        border-color: black;
+		        
 
 			p  { 
 						color: black; 
