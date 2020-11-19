@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title> This is my first HTML5 Website </title>	
+    <title> This is my first HTML5 Website </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 </head>
@@ -11,8 +11,8 @@
 	
 	<header>
 	<nav>
-		<h1> Learn How to make HTML5 website </h1>
-		<p style="float: right" class="menu">
+		<div><h1> Learn How to make HTML5 website </h1></div>
+	<p style="float: right" class="menu">
 			<a href="https://www.ankiblogs.com/"> Home </a> |
 			<a href="http://ankiblogs1.blogspot.com/p/contact-us.html/"> Contact Us </a> |
 			<a href="http://ankiblogs1.blogspot.com/p/disclaimer.html/"> Disclaimer </a> |
@@ -24,33 +24,36 @@
 <br />
 <hr />
 <main>
+    <div>
 		<!-- In this code I use how to write a peragraph and how to insert image in left or right side -->
 		
 	<h1 align="center" class="title"> Anki blogs </h1>
-	<img src="https://lh3.googleusercontent.com/-ndcWXiEu52Y/X2l_uCj7bXI/AAAAAAAAA30/rzvCoitvWK8Fq-CAbftuoQE2A1Z3nvVRgCNcBGAsYHQ/w640-h376/1600749493366807-0.png" title="hacked Image" style="float:right" width="600px" height="400px" />
+	<img src="https://lh3.googleusercontent.com/-ndcWXiEu52Y/X2l_uCj7bXI/AAAAAAAAA30/rzvCoitvWK8Fq-CAbftuoQE2A1Z3nvVRgCNcBGAsYHQ/w640-h376/1600749493366807-0.png" title="hacked Image" style="float:right" width="200px" height="200px" />
 	<p id="white"> Mumbai: Former Reserve Bank Governor Raghuram Rajan expressed hope that the uninterrupted decline in the rupee will not continue as the central bank is raising the interest rate properly in order to control inflation. Due to the fear of a global trade war, the rupee rose above 72 against the US dollar and reached level of 72.45. He said that it is important for the RBI that he is consistently indicating that he will keep inflation under control. This gives investors a confidence that there will be no uninterrupted decline in the rupee as the inflation will finally be in control.</p>
 <p class="yellow">Regarding the suggestion of NRI bond to pause the rupee fall in the rupee, Rajan said that this is a weapon that is in your arsenal. RBI has recently increased the policy rate twice to inflation concerns.</p>
 <p>Meanwhile, Rajan has said about the trapped debt that it is mainly due to bank officials being more optimistic and softening in growth.</p>
 	
 </main>
+</div>
+<div>
 		<!-- In this line I am using width, height and color code. But In browser I see width or color reflection not height reflection. -->
-		<h2> This line for breaking test </h2><br /><hr style="width: 100%" style="height: 10px" color="yellow" /><br /> <p style="background-color: white">This is Second line.<hr style="width: 100%" style="height: 10px" color="yellow" /></p>
-
+		<h2> This line for breaking test </h2><hr style="width: 100%" style="height: 10px" color="yellow" />
+</div>
+<div>
+		<p style="background-color: white">This is Second line.<hr style="width: 100%" style="height: 10px" color="yellow" /></p>
+</div>
 <div>
 		<!-- In this code I use Immage hyperlink-->
 		
 			<a href="https://www.ankiblogs.com/" title="Hacked" target="_blank" >
-		<img src="https://lh3.googleusercontent.com/-ndcWXiEu52Y/X2l_uCj7bXI/AAAAAAAAA30/rzvCoitvWK8Fq-CAbftuoQE2A1Z3nvVRgCNcBGAsYHQ/w640-h376/1600749493366807-0.png" style="float:right" width="350" height="350" alt="This is a example picture"/></a>
+		<img src="https://lh3.googleusercontent.com/-ndcWXiEu52Y/X2l_uCj7bXI/AAAAAAAAA30/rzvCoitvWK8Fq-CAbftuoQE2A1Z3nvVRgCNcBGAsYHQ/w640-h376/1600749493366807-0.png" style="float:right" width="150" height="150" alt="This is a example picture"/></a>
 		
 		<!-- I have some issue here. I am want to add image here from my computer. But I can't do that Please help-->
 		
-		<img src="logo.jpg" class="abc" width="26.5%"/><hr style="width: 100%" style="height: 10px" color="yellow" /> 
+	<img src="logo.jpg" class="abc" width="150" height="150" color="yellow" /> 
 </div>
 <br />
-<div>	
-	<!-- This is Java script css coding-->
-		
-</div>
+	<!-- This is Java script css coding -->
 
 <div>
 		 <table>
@@ -274,7 +277,7 @@
 </div>
 <br />
 		<!-- Email Section Test Here. () (Not Working)-->
-		
+<div>	
 		<p> Type Invalid email in this area </p>
 			<form action="sample-page-handler.html">
 				<input type="email" id="demo" name="email" />
@@ -285,13 +288,16 @@
 			<button onclick="getValue()"> Get Value </button>
 <br	/>
 <br />
+</div>
+<div>
 		<!-- File uploading Test Here. (Not Working)-->
 		
 		<input type="file" id="demo" onchange="readFile();" />
 		<img src="" alt="The image file will be show here." id="result" />
 		
 <br />
-		
+</div>
+<div>
 		<!-- Hidden Text (Not Working)-->
 		
 		<input type="hidden" value="Ankit Boora" id="demo" />
@@ -299,13 +305,18 @@
 		<button onclick="getValue()"> Click Here </button>
 
 <br />
-<br />		
+<br />	
+
+</div>
+<div>
 		<!-- Month Entring Test Here (Not Working)-->
 		<input type="month" id="demo" />
 		<br />
 		<button onclick="getValue()"> Click for month </button>
 <br />
 <br />
+</div>
+<div>
 		<!-- Number Test Here (Not Working)-->
 			<p> Enter Any Number in box and then click on 'Submit' Button. </p>
 				<form action="sample-page-handler.hrml">
@@ -316,12 +327,16 @@
 				<button onclick="getValue()"> Submit </button>
 <br />
 <br />
+</div>
+<div>
 		<!-- Password Test Here (Not Working)-->
 			<input type="password" id="demo" />
 			<br />
 			<button onclick="getValue()"> Show Password </button>
 <br />
 <br />
+</div>
+<div>
 		<!-- Radio Checkbox Test Here (Not Working) -->
 			<input type="radio" name="gender" value="male" id="male" />
 				<label for="male"> Male </label>
@@ -332,6 +347,7 @@
 			<button onclick="getValue()"> Submit </button>
 <br />
 <br />
+</div>
 			
 			
 			
@@ -350,10 +366,11 @@
 
 
 
-
+<div>
 <footer>
 		<h2> @Copyrights by <a href="https://www.ankiblogs.com/" target="_blank"> <span style="color: Yellow"> Anki Blogs</span></a> 2020 | All rights reserved </h2>
 </footer>
+</div>
 		
 
 
